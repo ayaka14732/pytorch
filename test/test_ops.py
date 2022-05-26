@@ -824,7 +824,6 @@ class TestCommon(TestCase):
                     # for non-integer types fills with NaN
                     return torch.full_like(t, float("nan"))
 
-
             _compare_out(_case_zero_transform)
 
             # Case 1: out= with the correct shape, dtype, and device,
